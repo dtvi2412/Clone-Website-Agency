@@ -1,0 +1,32 @@
+.hero-img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;   
+   
+}
+
+.hero-img0{
+    position: absolute;
+    top:-10px;
+    left:200px;
+}
+.hero-img1{
+    position: absolute;
+    top:120px;
+    left:200px;
+    bottom: 0;
+ 
+}
+.hero-img2{
+    position: absolute;
+    top:50px;
+    right:200px;
+}
+.hero-img3{
+    position: absolute;
+    top:90px;
+    left:180px;
+}
+.hero{
+    background-attachment: fixed;
+}

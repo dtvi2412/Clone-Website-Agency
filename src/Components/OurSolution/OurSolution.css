@@ -1,0 +1,123 @@
+.solution{
+  background: #0a1018;
+    /* position: absolute;
+    z-index: 1; */
+    position: relative;
+    z-index: 2;
+ 
+}
+.programer{
+    position: relative;
+
+
+    z-index: 10;
+    height:2200px;
+  
+}
+.programer  img{   
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    bottom:500px;
+    left:0;
+}
+.solution h1{
+    margin:0;
+    color:#78b5ed;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding:40px 0;
+}
+.solution::after{
+    /* content: '';
+    background: url("http://agencylegend.com/images/img-lines1.png") no-repeat;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; */
+}
+
+.solution .bg-img img{
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+  
+}
+/* Background Color  */
+.bg-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 35%;
+    bottom: 0;
+    width: 32%;
+    background: rgba(20, 37, 55, 0.2);    height: 50%;
+}
+.bg-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+    background: rgba(20, 37, 55, 0.4);
+    z-index: -1;
+    height: 50%;
+}
+
+.text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top:9%;
+    left:8%;
+}
+
+.text strong{
+    color:#293540;
+    font: 48px/52px "industrydemi", "Helvetica", "Arial", sans-serif;
+    margin: 0 0 33px;
+    text-align: left;
+}
+.text-col h2{
+    color:#fff;
+    font-weight: 900;
+    margin: 0 0 42px;
+    padding: 0 15px 29px 0;
+    font-size: 28px;
+    line-height: 38px;
+    font: 700 24px/28px "fabrik", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+
+}
+.text-col h2::after{
+    content: "";
+    position: absolute;
+    top: auto;
+    left: 50%;
+    right: auto;
+    bottom: 0;
+    width: 60px;
+    height: 2px;
+    background: url("http://agencylegend.com/images/strip-img.png") no-repeat;
+}
+.text-col{
+    display: flex;
+    flex-direction: column;
+    margin:40px 40px;
+}
+.text-col p{
+    color:#fff;
+ 
+}

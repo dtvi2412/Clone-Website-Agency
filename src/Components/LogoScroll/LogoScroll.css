@@ -1,0 +1,23 @@
+.logo-scroll{
+    position: fixed;
+    top:50%;
+    right:0px;
+    z-index: 10000;
+  }
+  .bg-button{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    text-decoration: none;
+    color:#fff;
+    text-shadow: -8px -6px 1px rgb(255 255 255 / 20%);
+    background: url("http://agencylegend.com/images/bg-button.png") no-repeat;
+    padding: 22px 5px 10px 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    width: 164px;
+    height: 62px;
+    z-index: 99999;
+  }

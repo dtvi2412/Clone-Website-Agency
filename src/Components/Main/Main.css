@@ -1,0 +1,48 @@
+.main{
+    /* margin-top:200px; */
+    background-image: url("http://agencylegend.com/images/top-glow1.png");
+    height: 1896px;
+    height: 1645px;
+   
+    position: relative;
+   
+}
+.main__text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:250px;
+}
+.main__tech{
+    text-align: center;
+    color:#fff;
+    font-size:113px;
+    line-height: 114px;
+    margin: 40px 0 254px;
+    font: 700 83px/46px "fabrik", "Helvetica", "Arial", sans-serif;
+}
+.main strong{
+    color:#78b5ed;text-align: center;
+    font-size:1rem;
+    line-height: 38px;
+    letter-spacing: 5px;
+    font: 22px/32px "industry", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+}
+.main__mission{
+    color:#fff;
+    font: 14px/20px "industrydemi", "Helvetica", "Arial", sans-serif;
+
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6px;
+    word-spacing: 3px;
+    position: relative;
+    z-index: 20;
+}
+/* .hero-holder{
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+} */

@@ -1,0 +1,23 @@
+.header{
+    padding:31px 58px;
+    /* margin:0 auto; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    z-index: 9999;
+}
+.header__text{
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: rotate(-2deg);
+    text-shadow: -10px 6px 1px rgb(255 255 255 / 20%);
+    font: 12px/15px "industry", "Helvetica", "Arial", sans-serif;
+    /* margin: 31px 0 0; */
+}
