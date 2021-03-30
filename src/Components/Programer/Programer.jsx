@@ -1,5 +1,6 @@
 import React from 'react';
 import Complete from '../CompleteMission/Complete';
+import FieldReport from '../FieldReport/FieldReport';
 import './Programer.css';
 function Programer() {
   return (
@@ -40,6 +41,7 @@ function Programer() {
         </li>
       </ul>
       <Complete />
+      <FieldReport />
     </div>
   );
 }

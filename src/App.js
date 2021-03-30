@@ -1,4 +1,5 @@
 import './App.css';
+
 import Header from './Components/Header/Header';
 import LogoScroll from './Components/LogoScroll/LogoScroll';
 import Main from './Components/Main/Main';
@@ -12,7 +13,7 @@ function App() {
       <Main/>
       <LogoScroll/>
       <OurSolution/>
- 
+   
     </div>
   );
 }

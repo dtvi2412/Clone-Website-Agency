@@ -1,0 +1,101 @@
+.field .banner {
+    background: #0a1018;
+    position: relative;
+    top:10px;
+
+    display: flex;
+    height: 500px;
+}
+
+.field .banner__text{
+  width: 50%;
+}
+ .field .banner h1.name{
+    color:#fff;
+    font-size: 3rem;
+    line-height: 20px;
+    font-weight: bolder;
+    position: absolute;
+ 
+  
+}
+.banner__button {
+    position: relative;
+    padding: 81px 10px;
+  
+    
+    transform: translate(25%,-126%);
+    background-size: 100% 100%;
+    background:url("http://agencylegend.com/images/bg-btn1.png") no-repeat;
+
+    z-index: 1000;
+    text-align: center;
+}
+.banner__button a{
+    position: absolute;
+    left: 124px;
+    bottom: -2px;
+    display: block;
+    font: 18px/24px "industrydemi", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    min-height: 108px;  color: #fff;
+
+}
+.field .banner p{
+    color:#ccc;
+    position: absolute;
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-size:1.2rem;
+    top:-340px;
+    left:200px;
+    width: 40%;
+}
+.banner-image{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top:100px;
+    right: 90px;
+    background: #0a1018;
+}
+.banner-image img{
+    width:100%;
+    height:100%;
+    background: #0a1018;
+    object-fit: cover;
+}
+
+.banner__info h5{
+    font-size:1rem;
+    color:#53585f; font-size:0.9rem;
+    position: relative;
+    top: -197px;
+    left: 263px;
+}
+.banner__info h5 a{
+    text-decoration: none;
+    color:#ccc;
+   
+}
+
+.banner__info strong{
+    font-size:1rem;
+    width: 50%;
+    color:#5e7085;
+    position: relative;
+    top: -172px;
+    left: 201px;
+}
+.banner__info #img-footer{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    position: relative;
+    top: -172px;
+    z-index: 1000;
+    left: 95px;
+}

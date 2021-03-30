@@ -1,0 +1,80 @@
+.field{
+    position: relative;
+    top:1800px;
+    left:50%;
+    transform: translateX(-50%);  background: #0a1018;
+}
+.field h1{
+    
+    color:#78b5ed;
+    text-transform: uppercase;
+    font-weight: 500;letter-spacing: 4px;
+    font: 12px/18px "industry", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    word-spacing: 2px;
+}
+.field__ball{
+    display: flex;
+ 
+    justify-content: space-between;
+   
+}
+.field__ball__content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.field .field__ball__content img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    
+}
+.field .field__img{
+    position: relative;
+    
+   width: 500px;
+   height: 500px;
+}
+.field .field__img::after{
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 20%;
+    right: auto;
+    bottom: 0;
+    width: 60px;
+    height: 2px;
+    margin: 0 0 0 -30px;
+    background: url(http://agencylegend.com/images/strip-img.png) no-repeat;
+
+}
+.field__ball__content strong{
+
+    font: 48px/52px "industrydemi", "Helvetica", "Arial", sans-serif;
+    position: relative;
+    top: -414px;
+    margin-left:83px;
+   
+    color: #293540;
+}
+.field__ball__content p {
+    color:#fff;
+    position: relative;
+    top:-590px;
+
+    font-size:14px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    
+    padding:30px;
+}
+.field__ball__content h5{
+    color:#5e7085;
+    font-weight: 900;
+    position: relative;
+    top:-590px;
+     
+    padding:30px;
+}
