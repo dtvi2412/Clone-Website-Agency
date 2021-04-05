@@ -5,19 +5,24 @@ import './Programer.css';
 function Programer() {
   return (
     <div className="programer">
-      <h1>PROGRAMING</h1>
+      <h1 className="hide-1300px">PROGRAMING</h1>
       <img
         src="http://agencylegend.com/images/droidback.png"
         alt="bg-droid-back"
+        className="hide-1300px"
       />
-      <img src="http://agencylegend.com/images/DroidSolo.png" alt="bg-solo" />
+      <img
+        src="http://agencylegend.com/images/DroidSolo.png"
+        className="hide-1300px"
+        alt="bg-solo"
+      />
       <div className="info-robot">
         <strong>05 - ONBOARDING AND INTEGERATION WITHIN 1 WEEK</strong>
         <p>so that your pipeline of projects does'n back up on you</p>
         <a href="#" className="btn-prev"></a>
         <a href="#" className="btn-next"></a>
       </div>
-      <ul className="bullet-list">
+      <ul className="bullet-list hide-1300px">
         <li className="bullet-icon1">
           <a href=""></a>
         </li>

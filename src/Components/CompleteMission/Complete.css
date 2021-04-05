@@ -113,3 +113,82 @@
     height:100%;
     object-fit: contain;
 }
+@media only screen and (max-width:1300px){
+    .complete #robotBOX{
+        width: 500px;
+        height: 500px;
+    }
+    .globel-box {
+        width:500px;
+        height: 500px;
+        min-height: 500px;
+        min-width: 500px;
+    }
+    .logo-list  li{
+        width: 150px;
+        height: 150px;
+    }
+    .logo-list li.logo2,.logo-list li.logo5,.logo-list li.logo8{
+        display: none;
+    }
+    .logo-list li.logo1{
+        position: absolute;   
+
+        left:350px;
+        top:500px;
+    }
+    .logo-list li.logo4{
+        position: absolute;   
+
+        left:350px;
+        top:750px;
+    }
+    .logo-list li.logo7{
+        position: absolute;   
+
+        left:350px;
+        top:1000px;
+    }
+}
+@media only screen and (max-width:615px){
+    .complete{
+        position: absolute;
+        top: 658px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+}
+@media only screen and (max-width:540px){
+    .complete{
+        position: absolute;
+        top: 850px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    .logo-list li.logo1,  .logo-list li.logo4,  .logo-list li.logo7{
+        display: none;
+    }
+    .logo-list li.logo0,  .logo-list li.logo3,  .logo-list li.logo6{
+        position: absolute;   
+
+        left:150px;
+    }
+    .logo-list li{
+        width: 100px;
+        height: 100px;
+    }
+    .globel-box{
+        width:350px;
+        height: 350px;
+        min-height: 400px;
+        min-width:400px;
+    }
+   
+}
+@media only screen and (max-width:445px){
+    .complete{
+        display: none;
+    }
+}

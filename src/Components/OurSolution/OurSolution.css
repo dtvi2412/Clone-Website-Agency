@@ -121,3 +121,13 @@
     color:#fff;
  
 }
+@media only screen and (max-width:1300px){
+    .text{
+        display: flex;
+        flex-direction: column;
+        top:2%;
+    }
+    .text-col h2::after{
+        left:0%;
+    }
+}

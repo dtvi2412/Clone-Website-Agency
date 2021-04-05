@@ -99,3 +99,56 @@
     z-index: 1000;
     left: 95px;
 }
+@media only screen and (max-width:540px){
+    .banner-image{
+        width: 200px;
+        height: 200px;
+    }
+    .banner__button{
+        display: none;
+    }
+    .field .banner p{
+       display: none;
+    }
+    .banner__info h5{
+        position: relative;
+        top: -197px;
+        left: 150px;
+    }
+    .banner__info strong{
+        position: relative;
+        top: -172px;
+        left: 141px;
+    }
+    .field .banner h1.name {
+        line-height: 43px;
+    }
+    .banner__info #img-footer {
+        position: relative;
+        top: -172px;
+        z-index: 1000;
+        left: 65px;
+    }
+}
+@media only screen and (max-width:340px){
+    .banner__info h5 {
+        position: relative;
+        top: -197px;
+        left: 50px;
+    }
+    .banner__info strong {
+        position: relative;
+        top: -172px;
+        left: 51px;
+    }
+    .banner-image{
+        position: absolute;
+        top: 110px;
+        right: 80px;
+        width: 150px;
+        height: 150px;
+    }
+    .field .banner h1.name {
+        font-size:2rem;
+    }
+}
