@@ -102,7 +102,7 @@
 
 }
 .text-col h2::after{
-    content: "";
+    /* content: "";
     position: absolute;
     top: auto;
     left: 50%;
@@ -110,7 +110,17 @@
     bottom: 0;
     width: 60px;
     height: 2px;
-    background: url("http://agencylegend.com/images/strip-img.png") no-repeat;
+    background: url("http://agencylegend.com/images/strip-img.png") no-repeat; */
+}
+.text-col .strip{
+    content: "";
+    position: relative;
+    top: -50px;
+    left:30%;
+    right: auto;
+    bottom: 0;
+    width: 60px;
+    height: 2px;
 }
 .text-col{
     display: flex;

@@ -41,7 +41,7 @@
     width: 56px;
     height: 56px;
     position: relative;
-    background: url("http://agencylegend.com/images/bullet-icon.png") no-repeat;
+    /* background: url("http://agencylegend.com/images/bullet-icon.png") no-repeat; */
     text-decoration: none;
     transition: all .4s;
 }
@@ -78,7 +78,7 @@
     width: 56px;
     height: 56px;
     position: relative;
-    background: url("http://agencylegend.com/images/bullet-hover.png") no-repeat;
+    /* background: url("http://agencylegend.com/images/bullet-hover.png") no-repeat; */
     text-decoration: none;
 }
 .bullet-icon5{
@@ -109,7 +109,7 @@
     position: relative;
     color: #fff;
 }
-.info-robot strong::after{
+/* .info-robot strong::after{
     content: "";
     position: absolute;
     top: auto;
@@ -120,6 +120,17 @@
     height: 2px;
     margin: 0 0 0 -30px;
     background: url("http://agencylegend.com/images/strip-img.png") no-repeat;
+} */
+.info-robot .strip{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 15%;
+    right: auto;
+    bottom: 0;
+    width: 60px;
+    height: 2px;
+    margin: 0 0 0 -30px;
 }
 .info-robot p{
     width: 230px;
@@ -135,7 +146,7 @@
     width: 62px;
     height: 67px;
     margin: 0 1px;
-    background: url("http://agencylegend.com/images/btn-left.png") no-repeat;
+    /* background: url("http://agencylegend.com/images/btn-left.png") no-repeat; */
 }
 .info-robot .btn-next{
    
@@ -144,7 +155,7 @@
     width: 62px;
     height: 67px;
     margin: 0 1px;
-    background: url("http://agencylegend.com/images/btn-right.png") no-repeat;
+    /* background: url("http://agencylegend.com/images/btn-right.png") no-repeat; */
 }
 @media only screen and (max-width:1300px){
     .info-robot{

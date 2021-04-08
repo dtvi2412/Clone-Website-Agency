@@ -1,22 +1,28 @@
 import React from 'react';
 import './Hero.css';
+import hero1 from '../../Assets/img/hero1.png';
+import hero2 from '../../Assets/img/hero2.png';
+import hero3 from '../../Assets/img/hero3.png';
+import hero4 from '../../Assets/img/hero4.png';
 function Hero() {
   const hero = [
     {
       id: 0,
-      link: 'http://agencylegend.com/images/hero1.png',
+      // link: 'http://agencylegend.com/images/hero1.png',
+      // WORK
+      link: hero1,
     },
     {
       id: 1,
-      link: 'http://agencylegend.com/images/hero2.png',
+      link: hero2,
     },
     {
       id: 2,
-      link: 'http://agencylegend.com/images/hero3.png',
+      link: hero3,
     },
     {
       id: 3,
-      link: 'http://agencylegend.com/images/hero4.png',
+      link: hero4,
     },
   ];
   const renderHero = () => {

@@ -1,18 +1,22 @@
 import React from 'react';
 import Programer from '../Programer/Programer';
 import './OurSolution.css';
+import bg1 from '../../Assets/img/bg1.png';
+
+import stripImg from '../../Assets/img/strip-img.png';
 function OurSolution() {
   return (
     <div className="solution">
       <h1>OUR SOLUTION</h1>
       <div className="bg-img">
-        <img src="http://agencylegend.com/images/bg1.png" alt="bg-2" />
+        <img src={bg1} alt="bg-2" />
       </div>
 
       <div className="text">
         <div className="text__01 text-col">
           <strong>01</strong>
           <h2>Get specialized development expertise when you need it most.</h2>
+          <img className="strip" src={stripImg} alt="strip" />
           <p>
             Most of your client projects require development. But they
             increasingly require an advanced tethering of multiple platforms,
@@ -31,6 +35,7 @@ function OurSolution() {
           <h2>
             PHALANX removes the problem of having to staff underutilized talent.
           </h2>
+          <img className="strip" src={stripImg} alt="strip" />
           <p>
             The reason you haven't staffed more specialized development and
             technology expertise is because you can't forecast technical needs,
@@ -46,7 +51,8 @@ function OurSolution() {
           <strong>03</strong>
           <h2>
             Work with one of the best development teams in the agency world.
-          </h2>
+          </h2>{' '}
+          <img className="strip" src={stripImg} alt="strip" />
           <p>
             PHALANX doesn't just work with agencies like yours, they only work
             with agencies like yours. They have a combined 50 years of

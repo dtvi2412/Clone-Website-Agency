@@ -1,42 +1,54 @@
 import React, { useState } from 'react';
 import './Complete.css';
+import logo1 from '../../Assets/img/logo1.png';
+import logo2 from '../../Assets/img/logo2.png';
+import logo3 from '../../Assets/img/logo3.png';
+import logo4 from '../../Assets/img/logo4.png';
+import logo5 from '../../Assets/img/logo5.png';
+import logo6 from '../../Assets/img/logo6.png';
+import logo7 from '../../Assets/img/logo7.png';
+import logo8 from '../../Assets/img/logo8.png';
+import logo9 from '../../Assets/img/logo17.png';
+
+import globe from '../../Assets/img/globe.png';
+import robot from '../../Assets/img/robot.png';
 function Complete() {
   const [dataLogo, setDataLogo] = useState([
     {
       id: 0,
-      src: 'http://agencylegend.com/images/logo1.png',
+      src: logo1,
     },
     {
       id: 1,
-      src: 'http://agencylegend.com/images/logo2.png',
+      src: logo2,
     },
     {
       id: 2,
-      src: 'http://agencylegend.com/images/logo3.png',
+      src: logo3,
     },
     {
       id: 3,
-      src: 'http://agencylegend.com/images/logo4.png',
+      src: logo4,
     },
     {
       id: 4,
-      src: 'http://agencylegend.com/images/logo5.png',
+      src: logo5,
     },
     {
       id: 5,
-      src: 'http://agencylegend.com/images/logo6.png',
+      src: logo6,
     },
     {
       id: 6,
-      src: 'http://agencylegend.com/images/logo7.png',
+      src: logo7,
     },
     {
       id: 7,
-      src: 'http://agencylegend.com/images/logo8.png',
+      src: logo8,
     },
     {
       id: 8,
-      src: 'http://agencylegend.com/images/logo17.png',
+      src: logo9,
     },
   ]);
   const renderLogo = () => {
@@ -54,11 +66,11 @@ function Complete() {
     <div className="complete">
       <strong>COMPLETED MISSIONS</strong>
       <div className="globel-box">
-        <img src="http://agencylegend.com/images/globe.png" alt="Earth" />
+        <img src={globe} alt="Earth" />
       </div>
       <ul className="logo-list">{renderLogo()}</ul>
       <div className="img-box" id="robotBOX">
-        <img src="http://agencylegend.com/images/robot.png" alt="robot" />
+        <img src={robot} alt="robot" />
       </div>
     </div>
   );

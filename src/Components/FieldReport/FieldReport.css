@@ -47,7 +47,7 @@
     width: 60px;
     height: 2px;
     margin: 0 0 0 -30px;
-    background: url(http://agencylegend.com/images/strip-img.png) no-repeat;
+    background: url("http://agencylegend.com/images/strip-img.png") no-repeat;
 
 }
 .field__ball__content strong{

@@ -1,5 +1,8 @@
 import React from 'react';
 import './Banner.css';
+import logo10 from '../../Assets/img/logo10.png';
+import imgLeader from '../../Assets/img/img-leader.png';
+import bgBtn1 from '../../Assets/img/bg-btn1.png';
 function Banner() {
   return (
     <div id="bannerId" className="banner">
@@ -10,7 +13,10 @@ function Banner() {
           hours, and who can be ready to go within just 1 week. Are you ready to
           engage PHALANX and complete your mission?
         </p>
-        <div className="banner__button">
+        <div
+          className="banner__button"
+          style={{ background: `url("${bgBtn1}") no-repeat` }}
+        >
           <a href="#">ENGAGE PHALANX</a>
         </div>
         <div className="banner__info">
@@ -21,18 +27,11 @@ function Banner() {
             Should you or any member of your agency fail or be fired by your
             client, the Secretary will disavow any knowledge of your existence.
           </strong>
-          <img
-            id="img-footer"
-            src="http://agencylegend.com/images/logo10.png"
-            alt="aa"
-          />
+          <img id="img-footer" src={logo10} alt="aa" />
         </div>
       </div>
       <div className="banner-image">
-        <img
-          src="http://agencylegend.com/images/img-leader.png"
-          alt="img-box-banner"
-        />
+        <img src={imgLeader} alt="img-box-banner" />
       </div>
     </div>
   );
